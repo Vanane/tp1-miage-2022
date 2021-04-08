@@ -176,7 +176,7 @@ Le principe de l’architecture hexagonale repose sur la séparation et le déco
 
 ## Exercice 3
 ### 1. Quels types de tests devra-t-on écrire pour les adaptateurs ?
-    Les adaptateurs sont composés de 4 fichiers de persistance et d’un contrôleur REST. Afin de tester ces adaptateurs et valider leur performance, il faudra écrire des tests unitaires.
+Les adaptateurs sont composés de 4 fichiers de persistance et d’un contrôleur REST. Afin de tester ces adaptateurs et valider leur performance, il faudra écrire des tests unitaires.
 Il faudra également réaliser des tests d’intégration permettant de s’assurer du bon fonctionnement dans la globalité de l’application avec l’ajout de ces adaptateur.
 
 ### 2. Que teste-on dans ce cas ?
