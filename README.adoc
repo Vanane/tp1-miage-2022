@@ -181,16 +181,19 @@ Il faudra également réaliser des tests d’intégration permettant de s’assu
 
 ### 2. Que teste-on dans ce cas ?
 Nous testons les fonctions élémentaires, puis les fonctions composées de ces fonctions élémentaires. Dans le cas des classes de persistance, il faut tester :
+
 - L’ajout d’un nouveau todoItem
 - L’ajout d’un todoItem existant
 - La récupération des todoItems
+
 Dans le cas du contrôleur, il faut tester :
+
 - L’ajout d’un nouveau todoItem, et le statut retourné qui doit être 201(CREATED)
 - L’ajout d’un todoItem existant, et le statut retourné doit être 400 (BAD_REQUEST)
 - La récupération des todoItems, et le statut retourné doit être 200 (OK)
+
 De plus, un todoItem doit posséder un flag “[LATE!]” s’il est en retard de 24h. Des tests supplémentaires sont à prévoir :
+
 - Récupérer un todoItem qui n’est pas en retard, et vérifier que le flag n’est pas présent
 - Récupérer un todoItem qui est en retard, et vérifier que le flag est présent
-
-
 
